@@ -1,0 +1,75 @@
+{
+ "table1": {
+  "Vasant Kunj, 27 brands": {
+   "customers": 0.2511,
+   "units_per_customer": 0.2397,
+   "price_per_unit": 0.5092,
+   "spearman_rho": 0.3725,
+   "spearman_p": 0.0557
+  },
+  "Vasant Kunj, without Montrega": {
+   "customers": 0.3637,
+   "units_per_customer": 0.0561,
+   "price_per_unit": 0.5802,
+   "spearman_rho": 0.3986,
+   "spearman_p": 0.0437
+  },
+  "Galleria Market, 18 brands": {
+   "customers": 0.0332,
+   "units_per_customer": -0.1106,
+   "price_per_unit": 1.0774,
+   "spearman_rho": 0.0506,
+   "spearman_p": 0.8418
+  }
+ },
+ "loo": {
+  "customers": {
+   "min": 0.1847,
+   "max": 0.3637
+  },
+  "units_per_customer": {
+   "min": 0.0561,
+   "max": 0.3022
+  },
+  "price_per_unit": {
+   "min": 0.4268,
+   "max": 0.5802
+  }
+ },
+ "boot90": {
+  "customers": {
+   "0.05": 0.0335,
+   "0.95": 0.578
+  },
+  "units_per_customer": {
+   "0.05": -0.05,
+   "0.95": 0.4709
+  },
+  "price_per_unit": {
+   "0.05": 0.1985,
+   "0.95": 0.8274
+  }
+ },
+ "table2": {
+  "customers": {
+   "Galleria": 31.0,
+   "Vasant Kunj": 16.0,
+   "ratio": 0.5161
+  },
+  "units_per_customer": {
+   "Galleria": 1.5161,
+   "Vasant Kunj": 6.125,
+   "ratio": 4.0399
+  },
+  "price_per_unit": {
+   "Galleria": 1677.6596,
+   "Vasant Kunj": 1086.2245,
+   "ratio": 0.6475
+  },
+  "revenue_per_customer": {
+   "Galleria": 2543.5484,
+   "Vasant Kunj": 6653.125,
+   "ratio": 2.6157
+  }
+ }
+}
